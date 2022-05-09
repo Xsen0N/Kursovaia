@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Sass/Classes.css"  > 
+<link rel="stylesheet" href="css\normalize.css">
+<link rel="stylesheet" href="Sass/registration.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet" rel="stylesheet">
+<meta charset="utf-8" > 
+<title>ArtStudio </title>  
+</head>  
+<body> 
+<header class="top_header"> 
+ <div class="wrapper">
+     <nav>
+         <ul class="head"> 
+            <li><a href="art.html" class="log"><img src="img/logo.png" class="logo1" alt="logo" > </a></li>
+             <li class="line"><a id="class" href="Classes.html" class="logo">Choose a class</a></li>
+             <li class="line"><a href="Help.html" class="logo">Need help?</a></li>
+             <li class="line"><a href="About_us.html" id="about" class="logo">About us</a></li>
+             <li class="line" ><a href="#"><label class="btn"class="logo" for="modal-1">Regist</label></a></li>       
+         </ul>
+     </nav>
+ </div>
+ </header>
+<div class="first_part"> 
+    <img class="bridge"src="img/1209439.jpg" alt="painting" class="painting">
+    <p class="text1"> Our courses require a huge variety of activities: 
+        <span class="red"> felting</span>, <span class="yellow">sculpting </span>,
+        <span class="blue"> ceramics</span> ,
+         oil and watercolor <span class="blue"> painting</span> and much more. Here you can find 
+         everything about what is written and even more. More uncertainty with 
+         creative activities is not a problem, if you do not like one type of 
+         <span class="red">art </span>, you can easily choose something else without wasting time 
+         searching.</p> 
+    <img class="heads" src="img/heads.jpg" alt="painting"> 
+    <p class="text2" > In addition, every first lesson in a
+        new field is <span class="red"> absolutely free</span>.</p> 
+        <p class="text3">At first glance, it may seem rather
+         strange that there is such a variety of different activities,
+          but the whole secret is in experienced and skillful teachers 
+          who will help you discover yourself in different areas, and
+           they themselves love to learn something new, because art is
+            not stands still, there is always room for improvement.</p>
+</div>
+<div class="block_with_classes1"> 
+<div class="block" id="first"> 
+    <p class="text_in_block"> <label class="btn_ceramic" for="modal-11">CERAMICS</label></p>
+</div>
+<div class="block" id="second"> 
+    <p class="text_in_block" > <label class="btn_copic" for="modal-2"> COPIC COURSES</p>
+</div>
+</div>
+<div class="block_with_classes1"> 
+<div class="block" id="third"> 
+    <p class="text_in_block"> <label class="btn_knitting" for="modal-3">KNITTING</label> </p>
+</div>
+<div class="block" id="fourth"> 
+    <p class="text_in_block"><label class="btn_watercolor" for="modal-4">WATERCOLOR PAINTING</label> </p>
+</div>
+</div>
+<div class="block_with_classes1"> 
+<div class="block" id="fifth"> 
+    <p class="text_in_block">  <label class="btn_oil" for="modal-5">OIL PAINTING</label></p>
+</div>
+<div class="block" id="sixth"> 
+    <p class="text_in_block"> <label class="btn_pencil" for="modal-6">COLORED PENCILS </label></p>
+</div>
+</div>
+ <footer>
+<div class="footer">
+    <p class="contact">Contact us: </p>
+    <p class="mail">Our mails: </p>
+    <ul class="our_mail"> 
+        <li> puzerochek@mail.com </li> 
+        <li> artstudio@gmail.com</li>
+        <li> kotenochek-7281@gmail.jp</li>
+    </ul>
+    <div class="icons_for_you" >
+        <img class="icon" src="img/icomoon-free_vk.svg" alt="vk">
+        <img class="icon" src="img/logos_telegram.svg" alt="telegram">
+        <img class="icon"src="img/Vector.svg" alt="facebook">
+        <img class="icon"src="img/brandico_facebook-rect.svg" alt="brandico">
+
+    </div>
+</div>
+</footer>
+<!-- Модальное окно для регистрационного листа -->
+<div class="modal">
+    <input class="modal-open" id="modal-1" type="checkbox" hidden>
+    <div class="modal-wrap" aria-hidden="true" role="dialog">
+      <label class="modal-overlay" for="modal-1"></label>
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2> Register </h2>
+          <label class="btn-close" for="modal-1" aria-hidden="true">&#215; </label>
+        </div>
+        <div class="modal-body">
+          <form class="userform">
+            <p class="fam">
+            <label for="fam" class="label">First name*</label>
+            <input type="text" name="fam" class="ord" >
+            </p>
+            <p class="fam">
+            <label for="name"class="label">Name* </label>
+            <input type="text" name="name" class="ord">
+            </p>
+            <p class="fam">
+            <label for="age" class="label"> Age* </label>
+            <input type="text" name="age" class="ord">
+            </p>
+            <p class="fam">
+            <label class="label">Email address* </label>
+            <input type="email" name="email" class="ord">
+            </p>
+            <p class="attract"><span class="text">What attracts you?*</span>
+            <label>
+            <select name="art" class="art">
+            <option> ceramic</option>
+            <option> oil painting </option>
+            <option> watercolor painting </option>
+            <option> kniting </option>
+            <option> colored pancils </option>
+            <option> academic art </option>
+            <option> copic courses </option>
+             </select>
+            </label>
+            </p>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <label class="btn btn-primary" class="button" for="modal-1">Confirm</label>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Карточка для класса керамики -->
+  <div class="modal_art">
+    <input class="modal_art-open" id="modal-11" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-11"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-11" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/ceramics.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+ <!-- Карточка для класса копирования --> 
+ <div class="modal_art">
+    <input class="modal_art-open" id="modal-2" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-2"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-2" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/copic_courses.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- Карточка для класса вязания -->
+<div class="modal_art">
+    <input class="modal_art-open" id="modal-3" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-3"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-3" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/knitting.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- Карточка для класса акварели-->
+<div class="modal_art">
+    <input class="modal_art-open" id="modal-4" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-4"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-4" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/watercolor_painting.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- Карточка для класса масляной живописи -->
+<div class="modal_art">
+    <input class="modal_art-open" id="modal-5" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-5"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-5" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/oil_painting.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- Карточка для класса карандашей -->
+<div class="modal_art">
+    <input class="modal_art-open" id="modal-6" type="checkbox" hidden>
+    <div class="modal_art-wrap" aria-hidden="true" role="dialog">
+      <label class="modal_art-overlay" for="modal-6"></label>
+      <div class="modal_art-dialog">
+        <div class="modal_art-header">
+          <label class="btn_art-close" for="modal-6" aria-hidden="true">&#8592;</label>
+        </div>
+        <div class="modal_art-body">
+          <img class="ceramic" src="img/colored_pancils.png" alt="painting"> 
+        </div>
+        <div class="modal_art-footer">
+        </div>
+      </div>
+    </div>
+  </div> 
+</body>  
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Sass\art.css"> 
+<link rel="stylesheet" href="css\normalize.css">
+<link rel="stylesheet" href="Sass/registration.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet">
+<meta charset="utf-8" > 
+<title>ArtStudio </title>  
+</head>  
+<body> 
+<header class="top_header"> 
+ <div class="wrapper">
+     <nav>
+         <ul class="head"> 
+            <li><a href="art.html" class="log" ><img src="img/logo.png" class="logo1" alt="logo"  > </a></li>
+             <li class="line"><a href="Classes.html" class="logo">Choose a class</a></li>
+             <li class="line"><a href="Help.html" class="logo">Need help?</a></li>
+             <li class="line"><a href="About_us.html" class="logo">About us</a></li>
+             <li class="line" ><a href="#" ><label class="btn"class="logo" for="modal-1">Regist</label></a></li>       
+         </ul>
+     </nav>
+ </div>
+ </header>
+ <div class="art_form"> 
+    <p class="name_art_form"> Academic drawing and more here!</p>
+    <p class="motto"> Let's start your <span style="color: #FBCB1D;"> art</span>  lessons together </p>
+ </div> 
+ <div class="class_information"> 
+     <p class="name_of_block"> <a class="link_to_class" href="Classes.html"> <span style="color: #FBCB1D;">Our </span> classes </a></p>
+     <p id="ceramic"> ceramics</p>
+     <div class="ceramic"> 
+      <img class="img_art" id="cup" src="img/pexels-regiane-tosatti-22823.jpg" alt="ceramic">   
+     <ul class="characteristic_of_art" id="first_list">
+         <li> casting and sculpting figures</li>
+         <li> academic sculpture</li>
+         <li> potter's wheel work</li>
+     </ul>
+    </div>
+    <p id="main_painting"> painting</p>
+    <div class="painting"> 
+        <img class="img_art" id="fish" src="img/painting.jpg" alt="painting">   
+       <ul class="characteristic_of_art" id="second_list">
+           <li> still lifes and landscapes oil painting</li>
+           <li> professional watercolor painting</li>
+           <li> sketches from nature</li>
+       </ul>
+      </div>
+      <p class="view_more_block"><a href="Classes.html" class="view_more">View all classes</a> </p>
+ </div>
+ <div class="work_examples">
+     <div class="text_to_join">
+         <p class="text"> Do you want to become your creative path with us?</p>
+         <p  id="join" class="bottom"> <a  href="art.html" class="link"><label class="btn" for="modal-1">Join</label>  </a> </p>
+     </div>
+ </div>
+ <footer>
+<div class="footer">
+    <p class="contact">Contact us: </p>
+    <p class="mail">Our mails: </p>
+    <ul class="our_mail"> 
+        <li> puzerochek@mail.com </li>
+        <li> artstudio@gmail.com</li>
+        <li> kotenochek-7281@gmail.jp</li>
+    </ul>
+    <div class="icons_for_you" >
+        <img class="icon" src="img/icomoon-free_vk.svg" alt="vk">
+        <img class="icon" src="img/logos_telegram.svg" alt="telegram">
+        <img class="icon"src="img/Vector.svg" alt="facebook">
+        <img class="icon"src="img/brandico_facebook-rect.svg" alt="brandico">
+
+    </div>
+</div>
+</footer>
+<!-- Модальное окно -->
+<div class="modal">
+    <input class="modal-open" id="modal-1" type="checkbox" hidden>
+    <div class="modal-wrap" aria-hidden="true" role="dialog">
+      <label class="modal-overlay" for="modal-1"></label>
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2> Register </h2>
+          <label class="btn-close" for="modal-1" aria-hidden="true">&#215;</label>
+        </div>
+        <div class="modal-body">
+          <form class="userform">
+            <p class="fam">
+            <label for="fam" class="label">First name*</label>
+            <input type="text" name="fam" class="ord" >
+            </p>
+            <p class="fam">
+            <label for="name"class="label">Name* </label>
+            <input type="text" name="name" class="ord">
+            </p>
+            <p class="fam">
+            <label for="age" class="label"> Age* </label>
+            <input type="text" name="age" class="ord">
+            </p>
+            <p class="fam">
+            <label class="label">Email address* </label>
+            <input type="email" name="email" class="ord">
+            </p>
+            <p class="attract"><span class="text">What attracts you?*</span>
+            <label>
+            <select name="art" class="art">
+            <option> ceramic</option>
+            <option> oil painting </option>
+            <option> watercolor painting </option>
+            <option> kniting </option>
+            <option> colored pancils </option>
+            <option> academic art </option>
+            <option> copic courses </option>
+             </select>
+            </label>
+            </p>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <label class="btn btn-primary" class="button" for="modal-1">Confirm</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>  
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Sass/About_us.css"  > 
+<link rel="stylesheet" href="css\normalize.css">
+<link rel="stylesheet" href="Sass/registration.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet" rel="stylesheet">
+<meta charset="utf-8" > 
+<title>ArtStudio </title>  
+</head>  
+<body> 
+<header class="top_header"> 
+ <div class="wrapper">
+     <nav>
+         <ul class="head"> 
+            <li><a href="art.html" class="log"><img src="img/logo.png" class="logo1"  alt="logo" > </a></li>
+             <li class="line"><a href="Classes.html" class="logo">Choose a class</a></li>
+             <li class="line"><a href="Help.html" class="logo">Need help?</a></li>
+             <li class="line"><a href="About_us.html" id="about" class="logo">About us</a></li>
+             <li class="line" ><a href="#" ><label class="btn"class="logo" for="modal-1">Regist</label></a></li>       
+         </ul>
+     </nav>
+ </div>
+ </header>
+<div class="about_us">
+<p class="main_phrase"> About us</p>    
+</div>
+<div class="first_row"> 
+    <img src="img/sad-v-jiverni-mone+.jpg" alt="painting" class="painting"> 
+    <p class="text1">  "<a class="art1" href="art.html">Art Studio</a>" - an art studio for those people who want to discover
+         something completely new, creative; find a new 
+        <a href="#" class="hobby" > hobby</a> that will help pass the time in an interesting and productive way for your imagination.</p>    
+
+        <p class="text1" > So, let's start your art lessons <label class="btn" for="modal-1"><span class="together"> together</span></label></p>
+</div>
+    <h1 class="team"> Our <span id="white"> team</span></h1> 
+<div class="second_row">
+    <img class="about_team" src="img/team.jpg" alt="Our team"> 
+<p class="text2" > Our team consists of several <span class="yellow">wonderful</span>  professionals who will
+     help you discover your creative possibilities, teach you 
+     something completely new, show you all the tricks of art, techniques 
+     that will change your idea of drawing. Each teacher has at least 5 
+     years of work experience, everyone participates in art exhibitions in
+      their own direction, in addition to this, they themselves organize
+       exhibitions not only of their works, but also of their students, 
+       giving them the opportunity to show themselves</p>
+</div>
+<div class="more_information"> 
+<p id="first"> <a class="more" href="Help.html"> <span class="arrow">&#8592</span> Have questions<span class="sign">?</span></a> </p>
+<p id="second"><label class="more" for="modal-1"> <span class="sign"> ?</span> Do you want to 
+  join <span class="arrow"> &#8594</span> </label></p>
+</div>
+ <footer>
+<div class="footer">
+    <p class="contact">Contact us: </p>
+    <p class="mail">Our mails: </p>
+    <ul class="our_mail"> 
+        <li> puzerochek@mail.com </li> 
+        <li> artstudio@gmail.com</li>
+        <li> kotenochek-7281@gmail.jp</li>
+    </ul>
+    <div class="icons_for_you" >
+        <img class="icon" src="img/icomoon-free_vk.svg" alt="vk">
+        <img class="icon" src="img/logos_telegram.svg" alt="telegram">
+        <img class="icon"src="img/Vector.svg" alt="facebook">
+        <img class="icon"src="img/brandico_facebook-rect.svg" alt="brandico">
+
+    </div>
+</div>
+</footer>
+<!-- Модальное окно -->
+<div class="modal">
+    <input class="modal-open" id="modal-1" type="checkbox" hidden>
+    <div class="modal-wrap" aria-hidden="true" role="dialog">
+      <label class="modal-overlay" for="modal-1"></label>
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2> Register </h2>
+          <label class="btn-close" for="modal-1" aria-hidden="true">&#215;</label>
+        </div>
+        <div class="modal-body">
+          <form class="userform">
+            <p class="fam">
+            <label for="fam" class="label">First name*</label>
+            <input type="text" name="fam" class="ord" >
+            </p>
+            <p class="fam">
+            <label for="name"class="label">Name* </label>
+            <input type="text" name="name" class="ord">
+            </p>
+            <p class="fam">
+            <label for="age" class="label"> Age* </label>
+            <input type="text" name="age" class="ord">
+            </p>
+            <p class="fam">
+            <label class="label">Email address* </label>
+            <input type="email" name="email" class="ord">
+            </p>
+            <p class="attract"><span class="text">What attracts you?*</span>
+            <label>
+            <select name="art" class="art">
+            <option> ceramic</option>
+            <option> oil painting </option>
+            <option> watercolor painting </option>
+            <option> kniting </option>
+            <option> colored pancils </option>
+            <option> academic art </option>
+            <option> copic courses </option>
+             </select>
+            </label>
+            </p>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <label class="btn btn-primary" class="button" for="modal-1">Confirm</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>  
+</html>

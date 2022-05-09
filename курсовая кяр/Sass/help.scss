@@ -1,0 +1,384 @@
+$margin: 0em;
+body{
+    font-family: 'Red Hat Mono';
+    background-image: url(img/color2.2.png);
+    color: white;
+ }
+ header.top_header.wrapper{
+    display: grid;
+    justify-content: space-evenly;
+    height: 25.42vw;
+}
+
+.wrapper{
+   max-width: 75vw;
+   width: 100%;
+   margin: 1.04vw;
+   font-size: 1.5vw;
+}
+ 
+ .logo1{
+    width: 12vw;
+    height: 7vw;
+ }
+ header.top_header.wrapper nav{
+     display:grid;
+     grid-column: 5;
+     grid-row: 1;    
+     grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr  ;
+     grid-template-rows: 1fr;
+ }
+ header.top_header nav{ 
+    li { display: inline;}
+
+    a {
+   display: inline-block;
+   text-decoration: none;
+   text-align: center;
+   vertical-align: middle;
+   margin: 0.42vw;
+   color:black;
+   }
+}
+ #help{
+    color:#FBCB1D;
+ }
+ .line:hover{
+   color: rgb(0, 0, 0);
+   border-bottom: 0.167vw solid #FBCB1D;
+   padding-bottom: 0.21vw;
+ }
+
+ /*-----------block2-----------*/
+.help{
+   color: #FBCB1D;
+   font-size: 5vw;
+}
+.main_information{
+   display: grid;
+   grid-row: 3;
+   grid-column: 3;
+   grid-template-rows: 0.3fr 1fr 1fr ;
+   grid-template-columns:0.3fr 1.25fr 1fr;
+   height: 65vw;
+}
+.name_of_block{
+   font-weight: 300;
+   font-size: 6vw;
+   margin-top: $margin;
+   margin-left: 2vw;
+   margin-bottom: $margin;
+   grid-area: 1 /2 /2 /4;
+   align-content: center;
+}
+.main_information .sign{
+   font-size: 9vw;
+}
+.view_more{
+   color:#CD1818;
+   text-decoration: none;
+   font-size: 1.45vw;
+}
+.view_more:hover{
+   color:#1C365B;
+}
+.more_information{
+   grid-area: 3 /3 /4 /4;
+}
+.left_column{
+   margin: 1.67vw 0.83vw 0.83vw 17vw;
+   width: 27vw;
+   height: 52vw;
+   grid-area:1/ 1 / 3/ 2 ;
+}
+.block{
+   width: 27vw;
+   height: 14.50vw;
+   border-radius: 2.08vw;
+   margin-bottom: 4.2vw;
+   margin-right: 0em;
+   display: grid;
+   grid-row: 3;
+   grid-column: 3;
+   grid-template-rows:1fr 1fr 1fr   ;
+   grid-template-columns:0.3fr 1.25fr 1fr;
+}
+#block1{
+      background-image: url(img/fonforblock.png);
+      margin-right: 4.2vw;
+}
+.link-test{
+   font-size: 2.92vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin-bottom: 0.42vw;
+   margin-top: 0.42vw;
+   color:black;
+}
+#block2{
+   background-image: url(img/fonforblock.png);
+   margin-right: 4.17vw;
+}
+#lesson_duration{
+   font-size: 2.7vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin-bottom: 0.42vw;
+   margin-top: 0.42vw;
+   color:black;
+}
+#block3{
+   background-image: url(img/fonforblock.png);
+   margin-right: $margin;
+}
+
+.block #courses_for{
+   font-size: 1.67vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin-bottom: $margin;
+   margin-right: 0.42vw;
+   margin-left: 0.42vw;
+   margin-top: $margin;
+   color:black;
+}
+.txt-test{
+   margin-bottom: $margin;
+   margin-top: $margin;
+}
+.txt-test-show {
+   display: none;
+ }
+ .link-test:hover p.txt-test {
+   display: none;
+ }
+ .link-test:hover p.txt-test-show {
+   display: grid;
+   color:#1C365B;
+   font-size: 0.5em;
+ }
+/*-----------right_column-----------*/
+.right_column{
+   grid-area:2/ 3 / 4 /4 ;
+   width: 27vw;
+   height: 52vw;
+   margin-right: 17vw;
+   margin-bottom: 2vw;
+
+}
+#materials{
+   font-size: 1.67vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin-bottom: $margin;
+   margin-right: $margin;
+   margin-left: 0.42vw;
+   margin-top: $margin;
+   color:black;
+}
+#skills, #group{
+   font-size: 2.08vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin-bottom: $margin;
+   margin-right: 0.42vw;
+   margin-left: 0.42vw;
+   margin-top: $margin;
+   color:black;
+}
+#block4{
+   background-image: url(img/fonforblock.png);
+}
+#block5{
+   background-image: url(img/fonforblock.png);
+}
+#block6{
+   background-image: url(img/fonforblock.png);
+}
+/*----fotter--------*/
+.footer{
+   color: black;
+   background-image: url(img/f1.png);
+   margin-top: 4.17vw;
+   background-repeat: no-repeat;
+   width: 100%;
+   height:  15.83vw;
+   display: grid;
+   grid-row: 5;
+   grid-column: 4;
+   grid-template-columns: 4.2vw 1fr 0.5fr 2.5vw ;
+   grid-template-rows: 3.33vw 0.15fr 1fr;
+}
+.footer{
+    p.contact{
+  grid-area: 1/ 2/2/ 3;
+  font-size: 1.46vw;
+  padding-left: 0.42vw;
+}
+  p.mail{
+  grid-area: 1/ 3/ 2/ 4;
+  font-size: 1.46vw;
+}
+  ul.our_mail li{
+  list-style-type: none;
+  font-size: 1.25vw;
+  margin-bottom: 1.25vw;
+}
+  .our_mail{
+  grid-area: 2/ 3/ 5/ 4;
+}
+}
+.icon{
+   margin-right: 2.50vw;
+   width: 8%;
+}
+.icons_for_you{
+   display: inline-block;
+   grid-area: 3/ 2/ 5/ 3;
+   padding-left: 4.17vw;
+   padding-top: 1.25vw;
+}
+@media screen and (max-width: 780px){
+.wrapper{
+   width: 150%;
+    margin: 1.04vw;
+   font-size: 2.5vw;
+}
+.logo1{
+   width: 7em;
+   height: 4em;
+}
+.log{
+   width: 7em;
+}
+.head{
+   padding-left: 3vw;
+   width: 120%;
+}
+   /* ---------------------*/
+.help{
+   font-size: 11vw;
+}
+.main_information{
+   height: 115vw;
+}
+.name_of_block{
+   font-size: 9vw;
+   margin-top: $margin;
+   margin-left: 2vw;
+   margin-bottom: 0.25em;
+}
+.main_information .sign{
+   font-size: 12vw;
+}
+.view_more{
+   font-size: 3vw;
+   margin-top: $margin;
+}
+.more_information{
+   grid-area: 3 /2 /4 /4;
+   text-align: right;
+   padding-right: 0.5em;
+   margin-top: $margin;
+}
+.left_column{
+   margin: 3em 3vw 0.83vw 6vw;
+   width: 40vw;
+   height: 45vw;
+}
+
+.block{
+   width: 40vw;
+   height: 26vw;
+   margin-bottom: 4.2vw;
+   margin-right: 5em;
+}
+#block1{
+   margin-right: 4.2vw;
+}
+.link-test{
+   font-size: 2.92vw;
+   margin-bottom: 0.42vw;
+   margin-top: 0.42vw;
+}
+#block2{
+   margin-right: 4.17vw;
+}
+#lesson_duration{
+   font-size: 4vw;
+   margin-bottom: 0.42vw;
+   margin-top: 0.42vw;
+}
+#block3{
+   margin-right: $margin;
+}
+.block #courses_for{
+   font-size: 3.2vw;
+   margin-bottom: $margin;
+   margin-right: 0.42vw;
+   margin-left: 0.42vw;
+   margin-top: $margin;
+}
+.txt-test{
+   margin-bottom: $margin;
+   margin-top: $margin;
+   font-size: 2em;
+}
+ .link-test:hover p.txt-test-show {
+   font-size: 0.95em;
+   padding-left: 0.1em;
+ }
+/*-----------right_column-----------*/
+.right_column{
+   width: 29vw;
+   height: auto;
+   margin-right: 17vw;
+   margin-bottom: 2vw;
+}
+#materials{
+   font-size: 3.5vw;
+   grid-area: 2 /1 /3 /4;
+   text-align: center;
+   margin: $margin $margin $margin 0.42vw ;
+}
+#skills, #group{
+   font-size: 4vw;
+   margin-bottom: $margin;
+   margin-right: 0.42vw;
+   margin-left: 0.42vw;
+   margin-top: $margin;
+
+}
+   /*----fotter--------*/
+.footer{
+    margin-top: 5vw;
+    width: 100%;
+    height: 31vw;
+}
+.footer {
+    p.contact{
+  font-size: 3.5vw;
+  padding-left: 0.2vw;
+  margin-bottom: 2em;
+}
+ p.mail{
+  font-size: 3.5vw;
+  margin-bottom: 0.5em;
+}
+ul.our_mail li{
+  font-size: 2.7vw;
+  margin-bottom: 2vw;
+}
+ ul.our_mail{
+  padding-top: 1em;
+}
+}
+.icon{
+ margin-right: 2.50vw;
+width: 16%;
+}
+.icons_for_you{
+padding-left: 4.17vw;
+padding-top: 8vw;
+} 
+}

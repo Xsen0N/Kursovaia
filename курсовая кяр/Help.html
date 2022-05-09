@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Sass/help.css"  > 
+<link rel="stylesheet" href="css\normalize.css">
+<link rel="stylesheet" href="Sass/registration.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet" rel="stylesheet">
+<meta charset="utf-8" > 
+<title>ArtStudio </title>  
+</head>  
+<body> 
+<header class="top_header"> 
+ <div class="wrapper">
+     <nav>
+         <ul class="head"> 
+            <li><a href="art.html" class="log"><img class="logo1"  src="img/log.png" alt="logo" > </a></li>
+             <li class="line"><a href="Classes.html" class="logo">Choose a class</a></li>
+             <li class="line"><a href="Help.html" id="help"class="logo">Need help?</a></li>
+             <li class="line" ><a href="About_us.html"  class="logo" >About us</a></li>
+             <li class="line" ><a href="#" ><label class="btn"class="logo" for="modal-1">Regist</label></a></li>       
+         </ul>
+     </nav>
+ </div>
+ </header>
+<div class="main_information">
+<p class="name_of_block"> Need <span class="help"> help</span > <span class="sign"> ? </span></p>
+<div class="left_column">
+<div class="block" id="block1" >
+  <div class="link-test"> 
+  <p class="txt-test" class="text_in_block">prices </p>
+  <p class="txt-test-show"> The 1-st lesson is free! And then you'll know more or we'll send
+     it after registration </p>
+</div> 
+  <p class="more_information"><a href="About_us.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+<div class="block" id="block2">
+  <div class="link-test"> 
+  <p id="lesson_duration" class="txt-test" >lesson duration </p> 
+  <p class="txt-test-show"> 1.5 hours + break 20 min in the middle of the lesson </p>
+</div>
+  <p class="more_information"><a href="About_us.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+<div class="block" id="block3">
+  <div class="link-test"> 
+  <p class="txt-test" id="courses_for" >Who are these courses for, adults or children? </p>  
+  <p class="txt-test-show"> For everyone who wants to learn something new </p>
+</div> 
+ <p class="more_information"><a href="About_us.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+</div>
+<div class="right_column">
+<div class="block" id="block4">
+  <div class="link-test"> 
+  <p id="materials" class="txt-test" >What materials do we work with? </p>
+  <p class="txt-test-show"> Oil, watercolor, pancils, pastel, sanguine, chalk, sauce and so on </p>
+</div>  
+  <p class="more_information"><a href="Classes.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+<div class="block" id="block5">
+  <div class="link-test"> 
+  <p id="skills" class="txt-test">basic skills? </p> 
+  <p class="txt-test-show"> No, all you need are your interest and desire to learn</p>
+</div>
+  <p class="more_information"><a href="Classes.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+<div class="block" id="block6">
+  <div class="link-test"> 
+  <p id="group" class="txt-test">How many people in a group? </p>
+  <p class="txt-test-show"> It depends on the class, but usually 3-6</p>
+</div> 
+  <p class="more_information"><a href="About_us.html" class="view_more">&#8605 View more </a> </p>  
+</div>
+</div>
+</div>
+ <footer>
+<div class="footer">
+    <p class="contact">Contact us: </p>
+    <p class="mail">Our mails: </p>
+    <ul class="our_mail"> 
+        <li> puzerochek@mail.com </li>
+        <li> artstudio@gmail.com</li>
+        <li> kotenochek-7281@gmail.jp</li>
+    </ul>
+    <div class="icons_for_you" >
+        <img class="icon" src="img/icomoon-free_vk.svg" alt="vk">
+        <img class="icon" src="img/logos_telegram.svg" alt="telegram">
+        <img class="icon"src="img/Vector.svg" alt="facebook">
+        <img class="icon"src="img/brandico_facebook-rect.svg" alt="brandico">
+    </div>
+</div>
+</footer>
+<!-- Модальное окно -->
+<div class="modal">
+  <input class="modal-open" id="modal-1" type="checkbox" hidden>
+  <div class="modal-wrap" aria-hidden="true" role="dialog">
+    <label class="modal-overlay" for="modal-1"></label>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2> Register </h2>
+        <label class="btn-close" for="modal-1" aria-hidden="true">&#215;</label>
+      </div>
+      <div class="modal-body">
+        <form class="userform">
+          <p class="fam">
+          <label for="fam" class="label">First name*</label>
+          <input type="text" name="fam" class="ord" >
+          </p>
+          <p class="fam">
+          <label for="name"class="label">Name* </label>
+          <input type="text" name="name" class="ord">
+          </p>
+          <p class="fam">
+          <label for="age" class="label"> Age* </label>
+          <input type="text" name="age" class="ord">
+          </p>
+          <p class="fam">
+          <label class="label">Email address* </label>
+          <input type="email" name="email" class="ord">
+          </p>
+          <p class="attract"><span class="text">What attracts you?*</span>
+          <label>
+          <select name="art" class="art">
+          <option> ceramic</option>
+          <option> oil painting </option>
+          <option> watercolor painting </option>
+          <option> kniting </option>
+          <option> colored pancils </option>
+          <option> academic art </option>
+          <option> copic courses </option>
+           </select>
+          </label>
+          </p>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <label class="btn btn-primary" class="button" for="modal-1">Confirm</label>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+</body>  
+</html>

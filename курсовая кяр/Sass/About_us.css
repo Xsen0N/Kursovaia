@@ -1,0 +1,324 @@
+header.top_header.wrapper {
+  display: grid;
+  justify-content: space-evenly;
+  height: 25.42vw; }
+
+.wrapper {
+  max-width: 75vw;
+  width: 100%;
+  margin: 1.04vw;
+  font-size: 1.5vw; }
+
+body {
+  font-family: 'Red Hat Mono'; }
+
+header.top_header.wrapper nav {
+  display: grid;
+  grid-column: 5;
+  grid-row: 1;
+  grid-template-columns: 0.83vw 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr; }
+
+header.top_header nav li {
+  display: inline; }
+header.top_header nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.42vw;
+  color: black; }
+
+.line:hover {
+  color: black;
+  border-bottom: 0.21vw solid #1C365B;
+  padding-bottom: 0.21vw; }
+
+.logo1 {
+  width: 10vw; }
+
+/*-----------block2-----------*/
+.about_us {
+  background-image: url(img/fon2.2.png);
+  height: 5.83vw; }
+
+.about_us p.main_phrase {
+  display: block;
+  text-align: right;
+  font-size: 4.17vw;
+  font-weight: 400;
+  margin-right: 10vw;
+  margin-bottom: 0em;
+  margin-top: 0em; }
+
+.painting {
+  width: 40%;
+  float: left;
+  margin-left: 5vw;
+  margin-right: 3vw; }
+
+.text1 {
+  font-size: 2vw;
+  padding-top: 2vw;
+  padding-right: 2.5vw;
+  padding-left: 0.5vw;
+  text-align: center; }
+
+.text2 {
+  font-size: 1.5vw;
+  padding-top: 2vw;
+  padding-right: 2.5vw;
+  padding-left: 0.5vw;
+  margin-left: 0.5vw;
+  text-align: center; }
+
+.art1 {
+  color: #CD1818;
+  font-size: 2.5vw;
+  text-decoration: none; }
+
+.hobby {
+  color: #1C365B;
+  text-decoration: none; }
+
+.text1 .together {
+  text-decoration: none;
+  color: #FBCB1D; }
+
+.together:hover {
+  color: #CD1818;
+  font-size: 2.5vw; }
+
+.yellow {
+  color: #FBCB1D; }
+
+.team {
+  background-image: url(img/fon2.3.png);
+  font-size: 4vw;
+  margin-left: 5vw;
+  font-weight: 400;
+  padding-left: 5vw; }
+
+#white {
+  color: white; }
+
+.first_row {
+  height: 30vw; }
+
+.second_row {
+  height: 30vw;
+  margin-bottom: 2vw; }
+
+#about {
+  color: #FBCB1D; }
+
+.about_team {
+  float: right;
+  width: 45%;
+  margin-right: 5vw;
+  margin-left: 2vw;
+  margin-bottom: 0em; }
+
+.more_information {
+  background-image: url(img/Rectangle\ 26.png);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5vw;
+  display: grid;
+  font-size: 2.5vw;
+  grid-column: 4;
+  grid-row: 2;
+  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+  grid-template-rows: 1fr 1fr; }
+
+#first {
+  grid-area: 1 / 2 /2 /3;
+  margin-bottom: 0em; }
+
+#second {
+  grid-area: 2 / 3 /3 /4;
+  text-align: right;
+  margin-bottom: 0.2vw;
+  color: #FBCB1D; }
+
+.more {
+  color: black;
+  text-decoration: none; }
+
+.arrow {
+  color: #CD1818;
+  font-size: 3vw;
+  transition: color 2s linear; }
+
+.arrow:hover {
+  color: #1C365B; }
+
+.sign {
+  color: #1C365B; }
+
+/*----fotter--------*/
+.footer {
+  background-image: url(img/f1.png);
+  margin-top: 4.17vw;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 15.83vw;
+  display: grid;
+  grid-row: 5;
+  grid-column: 4;
+  grid-template-columns: 4.2vw 1fr 0.5fr 2.5vw;
+  grid-template-rows: 3.33vw 0.15fr 1fr; }
+
+.footer p.contact {
+  grid-area: 1/ 2/2/ 3;
+  font-size: 1.46vw;
+  padding-left: 0.42vw; }
+.footer p.mail {
+  grid-area: 1/ 3/ 2/ 4;
+  font-size: 1.46vw; }
+.footer ul.our_mail li {
+  list-style-type: none;
+  font-size: 1.25vw;
+  margin-bottom: 1.25vw; }
+.footer .our_mail {
+  grid-area: 2/ 3/ 5/ 4; }
+
+.icon {
+  margin-right: 2.5vw;
+  width: 8%; }
+
+.icons_for_you {
+  display: inline-block;
+  grid-area: 3/ 2/ 5/ 3;
+  padding-left: 4.17vw;
+  padding-top: 1.25vw; }
+
+@media screen and (max-width: 579px) {
+  .wrapper {
+    width: 150%;
+    margin: 1.04vw;
+    font-size: 2.5vw; }
+
+  .logo1 {
+    width: 7em;
+    height: 4em; }
+
+  .log {
+    width: 7em; }
+
+  .head {
+    padding-left: 3vw;
+    width: 120%; }
+
+  /* ---------------------*/
+  .about_us {
+    height: 10vw; }
+
+  .about_us p.main_phrase {
+    font-size: 8vw;
+    margin-right: 10vw;
+    margin-bottom: 0em;
+    margin-top: 0em; }
+
+  .painting {
+    width: 55%;
+    margin-left: 5vw;
+    margin-right: 3vw; }
+
+  .text1 {
+    font-size: 3.5vw;
+    padding-top: 2vw;
+    padding-right: 2.5vw;
+    padding-left: 0.5vw;
+    margin-bottom: 1em; }
+
+  .text2 {
+    font-size: 3vw;
+    margin-top: 2vw;
+    padding-right: 2.5vw;
+    padding-left: 0.5vw;
+    margin-left: 0.5vw; }
+
+  .art1 {
+    font-size: 4vw; }
+
+  .hobby {
+    color: #1C365B;
+    text-decoration: none; }
+
+  .together:hover {
+    font-size: 3.5vw; }
+
+  .team {
+    font-size: 8vw;
+    margin-top: 0.2em;
+    margin-left: 5vw;
+    font-weight: 400;
+    padding-left: 5vw; }
+
+  #white {
+    color: #FBCB1D; }
+
+  .first_row {
+    height: 70vw; }
+
+  .second_row {
+    height: 76vw;
+    margin-bottom: 2vw; }
+
+  .about_team {
+    width: 60%;
+    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-bottom: 0em; }
+
+  .more_information {
+    width: 90%;
+    height: 20em;
+    margin-top: 0.5vw;
+    font-size: 2.5vw; }
+
+  #first {
+    margin-bottom: 0em; }
+
+  #second {
+    margin-bottom: 0.2vw;
+    color: #FBCB1D; }
+
+  .more {
+    color: black;
+    text-decoration: none;
+    font-size: 2em; }
+
+  .arrow {
+    font-size: 8vw; }
+
+  /*----fotter--------*/
+  .footer {
+    margin-top: 5vw;
+    width: 100%;
+    height: 31vw; }
+
+  .footer p.contact {
+    font-size: 3.5vw;
+    padding-left: 0.2vw;
+    margin-bottom: 2em; }
+  .footer p.mail {
+    font-size: 3.5vw;
+    margin-bottom: 0.5vw; }
+  .footer ul.our_mail li {
+    font-size: 2.7vw;
+    margin-bottom: 2vw; }
+  .footer ul.our_mail {
+    padding-top: 1em; }
+
+  .icon {
+    margin-right: 2.5vw;
+    width: 16%; }
+
+  .icons_for_you {
+    padding-left: 4.17vw;
+    padding-top: 8vw; } }
+
+/*# sourceMappingURL=About_us.css.map */

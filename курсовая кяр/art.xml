@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<lesson>CERAMICS</lesson>
+<offers>
+<first_plus> сasting and sculpting figures</first_plus>
+<seconds_plus>academic sculpture</seconds_plus>
+<third_plus>potter's wheel work </third_plus>
+</offers>
+
+<lesson> COPIC COURSES</lesson>
+<offers>
+<first_plus> work with copic markers</first_plus>
+<seconds_plus>more than 360 colors and shades</seconds_plus>
+<third_plus>the best blending and overlapping techniques </third_plus>
+</offers>
+
+<lesson>KNITTING</lesson>
+<offers>
+<first_plus> threads of different materials</first_plus>
+<seconds_plus>knitting with felting elements</seconds_plus>
+<third_plus>fast and high quality knitting techniques </third_plus>
+</offers>
+
+<lesson>WATERCOLOR PAINTING</lesson>
+<offers>
+<first_plus> the best techniques with dry, liquid and tube watercolors</first_plus>
+<seconds_plus>wet painting</seconds_plus>
+<third_plus>still life, landscapes and portraits </third_plus>
+</offers>
+
+<lesson>OIL PAINTING</lesson>
+<offers>
+<first_plus> mixing of materials</first_plus>
+<seconds_plus>drawing with masks, dry and with braces</seconds_plus>
+<third_plus>drawing from nature</third_plus>
+</offers>
+
+<lesson>COLORED PENCILS</lesson>
+<offers>
+<first_plus> realistic style and simple strokes</first_plus>
+<seconds_plus>more than 300 colors and shades</seconds_plus>
+<third_plus>drawing from nature </third_plus>
+</offers>
+
+</courses>

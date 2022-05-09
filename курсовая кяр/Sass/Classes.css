@@ -1,0 +1,383 @@
+@charset "UTF-8";
+header.top_header.wrapper {
+  display: grid;
+  justify-content: space-evenly;
+  height: 25.42vw; }
+
+.wrapper {
+  max-width: 75vw;
+  width: 100%;
+  margin: 1.04vw;
+  font-size: 1.5vw; }
+
+body {
+  font-family: 'Red Hat Mono'; }
+
+header.top_header.wrapper nav {
+  display: grid;
+  grid-column: 5;
+  grid-row: 1;
+  grid-template-columns: 0.83vw 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr; }
+
+header.top_header nav li {
+  display: inline; }
+header.top_header nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.42vw;
+  color: black; }
+
+.line:hover {
+  color: black;
+  border-bottom: 0.167vw solid #1C365B;
+  padding-bottom: 0.21vw; }
+
+#class {
+  color: #FBCB1D; }
+
+.logo1 {
+  width: 10vw; }
+
+/*-------------------------------*/
+.bridge {
+  float: right;
+  width: 30%;
+  margin-right: 10vw;
+  border-radius: 1vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw; }
+
+.heads {
+  float: left;
+  width: 30%;
+  margin-left: 11vw;
+  border-radius: 1vw;
+  margin-right: 2vw; }
+
+.text1 {
+  font-size: 1.75vw;
+  padding-left: 5vw;
+  width: 50vw;
+  text-align: center; }
+
+.text2 {
+  font-size: 1.75vw;
+  padding-left: 5vw;
+  padding-right: 5vw; }
+
+.text3 {
+  font-size: 1.75vw;
+  height: 22vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-bottom: 8vw; }
+
+.red {
+  color: #CD1818; }
+
+.yellow {
+  color: #FBCB1D; }
+
+.blue {
+  color: #0b0660; }
+
+/*------------block2----------*/
+.block {
+  background-color: #1C365B;
+  width: 30vw;
+  height: 16vw;
+  border-radius: 2.08vw;
+  margin-bottom: 0.2vw;
+  margin-right: 0em;
+  display: grid;
+  grid-row: 3;
+  grid-column: 3;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 0.3fr 1.25fr 1fr; }
+
+.block:hover {
+  transform: scale(1.1); }
+
+.block_with_classes1 {
+  margin-right: 0em;
+  display: grid;
+  grid-row: 2;
+  grid-column: 5;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-columns: 0.3fr 1fr 0.3fr 1fr 0.3fr;
+  justify-items: center; }
+
+.block p.text_in_block {
+  grid-area: 2 /1 /3 /4;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 0.42vw;
+  margin-top: 0.42vw;
+  color: #FBCB1D; }
+
+.block p.text_in_block:hover {
+  color: #CD1818; }
+
+#first {
+  grid-area: 2 /2 /3 /3;
+  margin-top: 2vw;
+  background-image: url(img/first.jpg);
+  color: #FBCB1D; }
+
+#second {
+  grid-area: 2 /4 /3 /5;
+  margin-top: 2vw;
+  background-image: url(img/bear.jpg); }
+
+#third {
+  grid-area: 2 /2 /3 /3;
+  background-image: url(img/frogs.jpg); }
+
+#fourth {
+  grid-area: 2 /4 /3 /5;
+  background-image: url(img/street.jpg); }
+
+#fifth {
+  grid-area: 2 /2 /3 /3;
+  background-image: url(img/garnets.jpg); }
+
+#sixth {
+  grid-area: 2 /4 /3 /5;
+  background-image: url(img/pancils.jpg); }
+
+/*----fotter--------*/
+.footer {
+  background-image: url(img/f1.png);
+  margin-top: 4.17vw;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-row: 5;
+  grid-column: 4;
+  grid-template-columns: 4.2vw 1fr 0.5fr 2.5vw;
+  grid-template-rows: 3.33vw 0.15fr 1fr; }
+
+.footer p.contact {
+  grid-area: 1/ 2/2/ 3;
+  font-size: 1.46vw;
+  padding-left: 0.42vw; }
+.footer p.mail {
+  grid-area: 1/ 3/ 2/ 4;
+  font-size: 1.46vw; }
+.footer ul.our_mail li {
+  list-style-type: none;
+  font-size: 1.25vw;
+  margin-bottom: 1.25vw; }
+.footer .our_mail {
+  grid-area: 2/ 3/ 5/ 4; }
+
+.icon {
+  margin-right: 2.5vw;
+  width: 8%; }
+
+.icons_for_you {
+  display: inline-block;
+  grid-area: 3/ 2/ 5/ 3;
+  padding-left: 4.17vw;
+  padding-top: 1.25vw; }
+
+/* кнопка закрытия окна */
+.modal_art h2 {
+  color: #fff;
+  width: 100%; }
+
+.modal_art .btn_art-close {
+  color: #FBCB1D;
+  cursor: pointer;
+  font-size: 52px;
+  text-decoration: none;
+  position: absolute;
+  left: 28px;
+  top: 8px; }
+
+.modal_art .btn_art-close:hover {
+  color: red; }
+
+/* слой позади */
+.modal_art-overlay {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 102; }
+
+/* активация слоя затемнения и модального блока */
+.modal_art-open:checked ~ .modal_art-wrap:before,
+.modal_art-open:checked ~ .modal_art-wrap .modal_art-overlay {
+  display: block; }
+
+.modal_art-open:checked ~ .modal_art-wrap .modal_art-dialog {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 20%; }
+
+/* элементы модального окна */
+.modal_art-dialog {
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22), 0 19px 60px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22), 0 19px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22), 0 19px 60px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translate(-50%, -500%);
+  -ms-transform: translate(-50%, -500%);
+  -o-transform: translate(-50%, -500%);
+  transform: translate(-50%, -500%);
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  width: 758px;
+  left: 50%;
+  top: -100%;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  -o-transition: -o-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  z-index: 103; }
+
+.modal_art {
+  background-image: url(img/stars.jpg);
+  text-align: center; }
+
+.modal_art-footer {
+  padding-top: 5px;
+  padding-bottom: 20px; }
+
+.modal_art-header {
+  padding-top: 15px;
+  padding-bottom: 10px; }
+
+/* адаптивные картинки в модальном блоке */
+.modal_art-body img {
+  max-width: 95%;
+  height: auto; }
+
+/* кнопки */
+.btn_ceramic, .btn_copic, .btn_knitting, .btn_watercolor, .btn_oil, .btn_pencil {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none; }
+
+@media screen and (max-width: 880px) {
+  .modal_art-dialog {
+    width: 80vw; } }
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150%;
+    margin: 1.04vw;
+    font-size: 2.5vw; }
+
+  .logo1 {
+    width: 7em; }
+
+  .log {
+    width: 7em; }
+
+  .head {
+    padding-left: 3vw;
+    width: 120%; }
+
+  /* ---------------------*/
+  .bridge {
+    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-bottom: 1vw; }
+
+  .heads {
+    margin-right: 2vw; }
+
+  .text1 {
+    font-size: 3vw;
+    padding-left: 2vw;
+    width: 90vw;
+    margin-right: 2em; }
+
+  .text2 {
+    font-size: 3vw;
+    width: 90vw;
+    padding-right: 0; }
+
+  .text3 {
+    font-size: 3vw;
+    width: 90vw;
+    height: 32vw;
+    padding-right: 0; }
+
+  /*------------block2----------*/
+  .block {
+    width: 42vw;
+    margin-bottom: 0.2vw;
+    margin-right: 0em; }
+
+  .block:hover {
+    transform: scale(1.1); }
+
+  .block_with_classes1 {
+    margin-right: 0em; }
+
+  .block p.text_in_block {
+    font-size: 3vw;
+    margin-bottom: 0.42vw;
+    margin-top: 0.42vw;
+    color: #0b0660; }
+
+  /*----fotter--------*/
+  .footer {
+    margin-top: 5vw;
+    width: 100%;
+    height: 31vw; }
+
+  .footer p.contact {
+    font-size: 3.5vw;
+    padding-left: 0.2vw;
+    margin-bottom: 2em; }
+  .footer p.mail {
+    font-size: 3.5vw;
+    margin-bottom: 0.5em; }
+  .footer ul.our_mail li {
+    font-size: 2.7vw;
+    margin-bottom: 2vw; }
+  .footer ul.our_mail {
+    padding-top: 1em; }
+
+  .icon {
+    margin-right: 2.50vw;
+    width: 16%; }
+
+  .icons_for_you {
+    padding-left: 4.17vw;
+    padding-top: 8vw; }
+
+  /*------------------------*/
+  .modal_art .btn_art-close {
+    font-size: 35px;
+    left: 14px;
+    top: 12px; }
+
+  /*элементы модального окна */
+  .modal_art-dialog {
+    width: 420px; }
+
+  .modal_art-footer {
+    padding-top: 5px;
+    padding-bottom: 20px; }
+
+  .modal_art-header {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+
+  /* адаптивные картинки в модальном блоке */
+  .modal_art-body img {
+    max-width: 95%;
+    height: auto; } }
+
+/*# sourceMappingURL=Classes.css.map */
